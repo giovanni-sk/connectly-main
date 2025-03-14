@@ -1,0 +1,59 @@
+title: À propos de moi
+description: |
+  Passionné par le développement web et l'innovation, je mets mon expertise au service de projets ambitieux.
+  Découvrez mon parcours académique et professionnel, ainsi que les compétences que j'ai acquises au fil des années.
+sections:
+  - title: Parcours Académique
+    id: education
+    items:
+      - title: Institut Universitaire Les Cours SONOU
+        period: 2015 — 2018
+        description: |
+          Diplômé en Système Informatique et Logiciel, j'ai acquis des compétences solides en développement web, et en gestion de projet.
+      - title: Complexe Scolaire la Plenitude
+        period: 2012 — 2015
+        description: |
+          Baccalauréat scientifique avec mention.
+      - title: Collège et Primaire
+        period: 2004 — 2012
+        description: |
+          Formation de base avec l'obtention du certificat d'etude Primaire (CEP) et le brevet du premier cycle (BEPC).
+  - title: Parcours Professionnel
+    id: experience
+    items:
+      - title: Stage professionnel a la direction General du Port de cotonou
+        period: Janvier 2023 — Mai 2023
+        description: |
+         Developement des Applications internes , maintenances des materiels imformatiques et assistance du service reseau pour la maintenance du serveur et des probleme de Connection.
+      - title: Cello Events · Cello Express
+        period: 2022 — 2025
+        description: |
+         Responsable Informatique et Gestionnaire de Projet
+      - title: Fiscathon · Direction Générale des Impôts 
+        period: Juillet — Août 2024
+        description: |
+          Développement d'une solution de prediction de la taxe (Impôt) et de l'Accessibilité Fiscal .
+skills:
+  - name: JavaScript
+    icon: material-icon-theme:javascript
+  - name: TypeScript
+    icon: material-icon-theme:typescript
+  - name: React
+    icon: material-icon-theme:react-ts
+  - name: Angular
+    icon: material-icon-theme:angular
+  - name: Node.js
+    icon: material-icon-theme:nodejs
+  - name: Vue.js
+    icon: material-icon-theme:vue
+  - name: Nuxt.js
+    icon: material-icon-theme:nuxt
+  - name: Tailwind CSS
+    icon: material-icon-theme:vue
+  - name: python
+    icon:  material-icon-theme:python
+  - name: SQL
+    icon: material-icon-theme:database
+
+
+  

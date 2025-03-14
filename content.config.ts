@@ -71,6 +71,7 @@ export default defineContentConfig({
                         features: z.array(
                             z.object({
                                 name: z.string(),
+                              
                                 description: z.string(),
                                 icon: z.string(),
                             })
@@ -104,6 +105,33 @@ export default defineContentConfig({
                 })
             })
 
-        })
+        }),
+        about: defineCollection({
+            type: 'data',
+            source: 'blog/about.yml',
+            schema: z.object({
+              title: z.string(),
+              description: z.string(),
+              sections: z.array(
+                z.object({
+                  title: z.string(),
+                  id: z.string(),
+                  items: z.array(
+                    z.object({
+                      title: z.string(),
+                      period: z.string(),
+                      description: z.string(),
+                    })
+                  ),
+                })
+              ),
+              skills: z.array(
+                z.object({
+                  name: z.string(),
+                  icon: z.string(),
+                })
+              ),
+            }),
+        })   
     }
 });
